@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://speed-detector.vercel.app"
+  origin: "https://speed-detector-psi.vercel.app/"
 }));
 app.use(express.json());
 app.use(morgan('dev'));
